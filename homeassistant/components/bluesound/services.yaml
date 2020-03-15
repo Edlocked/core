@@ -28,3 +28,17 @@ clear_sleep_timer:
     entity_id:
       description: Name(s) of entities that will have the timer cleared.
       example: 'media_player.bluesound_livingroom'
+      
+next_input:
+  description: Switch to next avilable input.
+  fields:
+    entity_id:
+      description: Name(s) of entities that will their input switched.
+      example: 'media_player.bluesound_livingroom'
+      
+previous_input:
+  description: Switch to previous  input.
+  fields:
+    entity_id:
+      description: Name(s) of entities that will have their input switched.
+      example: 'media_player.bluesound_livingroom'
